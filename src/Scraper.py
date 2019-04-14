@@ -5,7 +5,7 @@ from News import News
 from FileWriterNewsCSV import FileWriterNewsCSV
 
 class Scraper:
-
+  # This function will dowload the html page to be analysed.
     def __init__(self):
         self.url = "https://www.meneame.net"
 
